@@ -1,0 +1,32 @@
+{
+    "version": "1.0.1",
+    "date": "2021-11-02",
+    "hashes": "/files/releases/hashes-1.0.1.txt",
+    "releases": {
+        "linux": {
+            "href": "/files/releases/linux/feather-1.0.1-linux.zip",
+            "sig_href": "/files/releases/linux/feather-1.0.1-linux.zip.asc",
+            "size": "20 MB"
+        },
+        "linux_appimage": {
+            "href": "/files/releases/linux-appimage/feather-1.0.1.AppImage",
+            "sig_href": "/files/releases/linux-appimage/feather-1.0.1.AppImage.asc",
+            "size": "25 MB"
+        },
+        "windows": {
+            "href": "/files/releases/win/feather-1.0.1-win.zip",
+            "sig_href": "/files/releases/win/feather-1.0.1-win.zip.asc",
+            "size": "22 MB"
+        },
+        "windows_installer": {
+            "href": "/files/releases/win/FeatherWalletSetup-1.0.1.exe",
+            "sig_href": "/files/releases/win/FeatherWalletSetup-1.0.1.exe.asc",
+            "size": "18 MB"
+        },
+        "mac": {
+            "href": "/files/releases/mac/feather-1.0.1-mac.zip",
+            "sig_href": "/files/releases/mac/feather-1.0.1-mac.zip.asc",
+            "size": "66 MB"
+        }
+    }
+}

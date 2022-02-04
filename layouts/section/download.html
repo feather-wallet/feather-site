@@ -1,0 +1,59 @@
+{{ define "main" }}
+  {{ $d := $.Site.Data.releases }}
+  {{ $r := $d.releases }}
+  <h1>Latest release: <code>{{ $d.version }}</code>
+    <span style="font-size:16px;">({{ $d.date }})</span></h1>
+
+  <p>
+      Need help installing Feather? Check the <a href="https://docs.featherwallet.org/">docs</a>.
+  </p>
+
+  <table>
+  <tbody>
+  <tr>
+    <td rowspan="2"><img src="/img/Linux-icon.png" class="icon">Linux <span style="font-size:80%">(libc 2.23 and higher)</span></td>
+    <td><a href="{{ $r.linux.href }}">Standalone executable</a></td>
+    <td><a style="text-decoration: line-through;" href="{{ $r.linux.sig_href }}">signature</a></td>
+    <td>{{ $r.linux.size }}</td>
+  </tr>
+  <tr>
+    <td><a href="{{ $r.linux_appimage.href }}">AppImage</a></td>
+    <td><a style="text-decoration: line-through;" href="{{ $r.linux_appimage.sig_href }}">signature</a></td>
+    <td>{{ $r.linux_appimage.size }}</td>
+  </tr>
+  <tr>
+    <td><img src="/img/Tails-icon.png" class="icon">Tails <span style="font-size:80%">(4.0 and higher)</span></td>
+    <td><a href="{{ $r.linux_appimage.href }}">AppImage</a></td>
+    <td><a style="text-decoration: line-through;" href="{{ $r.linux_appimage.sig_href }}">signature</a></td>
+    <td>{{ $r.linux_appimage.size }}</td>
+  </tr>
+  <tr>
+    <td rowspan="2"><img src="/img/windows-10-icon.png" class="icon">Windows <span style="font-size:80%">(8 and higher)</span></td>
+    <td><a href="{{ $r.windows_installer.href }}">Installer</a></td>
+    <td><a style="text-decoration: line-through;" href="{{ $r.windows_installer.sig_href }}">signature</a></td>
+    <td>{{ $r.windows_installer.size }}</td>
+  </tr>
+  <tr>
+    <td><a href="{{ $r.windows.href }}">Standalone executable</a></td>
+    <td><a style="text-decoration: line-through;" href="{{ $r.windows.sig_href }}">signature</a></td>
+    <td>{{ $r.windows.size }}</td>
+  </tr>
+  <tr>
+    <td><img src="/img/macOS-icon.png" class="icon">macOS <span style="font-size:80%">(10.13 and higher)</span></td>
+    <td><a href="{{ $r.mac.href }}">Executable</a></td>
+    <td><a style="text-decoration: line-through;" href="{{ $r.mac.sig_href }}">signature</a></td>
+    <td>{{ $r.mac.size }}</td>
+  </tr>
+  <tr>
+    <td><img src="/img/Feather-icon.png" class="icon">Source code</td>
+    <td><a href="https://github.com/feather-wallet/feather">Git repository</a></td>
+    <td></td>
+    <td></td>
+  </tr>
+  </tbody>
+  </table>
+
+    <p>
+        A GPG-signed list of the hashes can be found <a href="{{ $d.hashes }}">here</a>. The signing key can be found in our Git repo, <a href="https://raw.githubusercontent.com/feather-wallet/feather/master/utils/pubkeys/featherwallet.asc">here</a>.
+    </p>
+{{ end }}

@@ -1,0 +1,42 @@
+baseURL = 'https://featherwallet.org/'
+languageCode = 'en-us'
+title = 'Feather Wallet'
+theme = 'feather'
+defaultContentLanguage = 'en'
+
+[menu]
+  [[menu.main]]
+    name = "Home"
+    pre = "home"
+    url = "/"
+    weight = 1
+  [[menu.main]]
+    name = "Download"
+    pre = "download"
+    url = "/download/"
+    weight = 2
+  [[menu.main]]
+    name = "Changelog"
+    pre = "changelog"
+    url = "/changelog/"
+    weight = 3
+  [[menu.main]]
+    name = "Screenshots"
+    pre = "screenshots"
+    url = "/screenshots/"
+    weight = 4
+  [[menu.main]]
+    name = "Docs"
+    pre = "docs"
+    url = "https://docs.featherwallet.org"
+    weight = 5
+  [[menu.main]]
+    name = "Support"
+    pre = "support"
+    url = "https://docs.featherwallet.org/guides/report-an-issue"
+    weight = 6
+
+[languages]
+  [languages.en]
+    title = 'Feather Wallet'
+    weight = 1

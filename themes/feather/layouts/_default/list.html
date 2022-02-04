@@ -1,0 +1,8 @@
+{{ define "main" }}
+{{ range .Pages.ByPublishDate.Reverse }}
+<p>
+    <b>{{ .Title }}</b> ({{ .PublishDate.Format "2006-01-02" }})
+    <p>{{ .Content }}</p>
+</p>
+{{ end }}
+{{ end }}

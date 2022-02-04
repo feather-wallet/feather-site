@@ -1,0 +1,21 @@
+{{ define "main" }}
+<p>
+Feather is a free, open-source Monero wallet for Linux, Tails, Windows and macOS.
+</p>
+
+<a href="/screenshots" title="View more screenshots">
+<img class="front" src="/img/receive_light.png">
+</a>
+
+<ul>
+    <li><b>easy-to-use</b>, <b>small</b> and <b>fast</b> - Feather runs well on any modern hardware, including virtual machines and live operating systems.</li>
+    <li><b>beginner friendly</b>, but also caters to advanced Monero users by providing a <b><a href="https://docs.featherwallet.org/guides/features">feature set</a></b> that is on par with the official CLI.</li>
+    <li>ships with <b>sane defaults</b> that suit most users, but can also be configured for high or uncommon threat models.</li>
+    <li>serves as a testing grounds for <b>experimental features</b> that may later be adopted in the reference wallets.</li>
+</ul>
+
+<p>
+The latest version is <code>{{ $.Site.Data.releases.version }}</code>.
+<a href="download"><b>Download it here</b></a>.
+</p>
+{{ end }}

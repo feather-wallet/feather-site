@@ -1,0 +1,16 @@
+<h1 align="center">Feather: a free Monero desktop wallet</h1>
+        
+<p align=center>
+{{ $currentPage := . }}
+{{ $len := len .Site.Menus.main }}
+{{ range $i, $e := .Site.Menus.main }}
+    {{ $menu_item_url := .URL | relLangURL }}
+    {{ $page_url:= $currentPage.RelPermalink | relLangURL }}
+    {{ if eq $menu_item_url $page_url }}
+        <b data-href="{{ .URL }}">{{ $text := print .Name | safeHTML }}{{ $text }}</b>
+     {{ else }}
+         <a href="{{ .URL }}">{{ $text := print .Name | safeHTML }}{{ $text }}</a>
+     {{ end }}
+{{ if ne (add $i 1) $len }} | {{ end }}
+{{ end }}
+</p>
