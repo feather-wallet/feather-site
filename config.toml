@@ -33,7 +33,7 @@ defaultContentLanguage = 'en'
   [[menu.main]]
     name = "Support"
     pre = "support"
-    url = "https://docs.featherwallet.org/guides/report-an-issue"
+    url = "https://docs.featherwallet.org/guides/donate"
     weight = 6
 
 [languages]
