@@ -1,7 +1,7 @@
 {
-    "version": "2.1.0",
-    "date": "2022-08-12",
-    "hashes": "/files/releases/hashes-2.1.1.txt",
+    "version": "2.1.2",
+    "date": "2022-12-20",
+    "hashes": "/files/releases/hashes-2.1.2.txt",
     "releases": {
         "linux": {
             "href": "/files/releases/linux/feather-2.1.0-linux.zip",
@@ -9,8 +9,8 @@
             "size": "20 MB"
         },
         "linux_appimage": {
-            "href": "/files/releases/linux-appimage/feather-2.1.1.AppImage",
-            "sig_href": "/files/releases/linux-appimage/feather-2.1.1.AppImage.asc",
+            "href": "/files/releases/linux-appimage/feather-2.1.2.AppImage",
+            "sig_href": "/files/releases/linux-appimage/feather-2.1.2.AppImage.asc",
             "size": "27 MB"
         },
         "windows": {
