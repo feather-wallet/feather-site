@@ -51,10 +51,10 @@
     <td>{{ $r.mac.size }}</td>
   </tr>
   <tr>
-    <td><img src="/img/Feather-icon.png" class="icon">Source code</td>
-    <td><a href="https://github.com/feather-wallet/feather">Git repository</a></td>
-    <td></td>
-    <td></td>
+    <td><img src="/img/source_archive.png" class="icon">Source archive</td>
+    <td><a href="{{ $r.source_archive.href }}">.tar.gz</a></td>
+    <td><a style="text-decoration: line-through;" href="{{ $r.source_archive.sig_href }}">signature</a></td>
+    <td>{{ $r.source_archive.size }}</td>
   </tr>
   </tbody>
   </table>
