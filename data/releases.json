@@ -1,32 +1,42 @@
 {
-    "version": "2.1.2",
-    "date": "2022-12-20",
-    "hashes": "/files/releases/hashes-2.1.2.txt",
+    "version": "2.2.1",
+    "date": "2023-01-06",
+    "hashes": "/files/releases/hashes-2.2.1.txt",
     "releases": {
         "linux": {
-            "href": "/files/releases/linux/feather-2.1.0-linux.zip",
-            "sig_href": "/files/releases/linux/feather-2.1.0-linux.zip.asc",
-            "size": "20 MB"
+            "href": "/files/releases/linux/feather-2.2.1-linux.zip",
+            "sig_href": "/files/releases/linux/feather-2.2.1-linux.zip.asc",
+            "size": "23 MB"
         },
         "linux_appimage": {
-            "href": "/files/releases/linux-appimage/feather-2.1.2.AppImage",
-            "sig_href": "/files/releases/linux-appimage/feather-2.1.2.AppImage.asc",
-            "size": "27 MB"
+            "href": "/files/releases/linux-appimage/feather-2.2.1.AppImage",
+            "sig_href": "/files/releases/linux-appimage/feather-2.2.1.AppImage.asc",
+            "size": "24 MB"
+        },
+        "linux_arm_appimage": {
+            "href": "/files/releases/linux-arm-appimage/feather-2.2.1.AppImage",
+            "sig_href": "/files/releases/linux-arm-appimage/feather-2.2.1.AppImage.asc",
+            "size": "20 MB"
         },
         "windows": {
-            "href": "/files/releases/win/feather-2.1.0-win.zip",
-            "sig_href": "/files/releases/win/feather-2.1.0-win.zip.asc",
-            "size": "25 MB"
+            "href": "/files/releases/win/feather-2.2.1-win.zip",
+            "sig_href": "/files/releases/win/feather-2.2.1-win.zip.asc",
+            "size": "23 MB"
         },
         "windows_installer": {
-            "href": "/files/releases/win/FeatherWalletSetup-2.1.0.exe",
-            "sig_href": "/files/releases/win/FeatherWalletSetup-2.1.0.exe.asc",
-            "size": "19 MB"
+            "href": "/files/releases/win/FeatherWalletSetup-2.2.1.exe",
+            "sig_href": "/files/releases/win/FeatherWalletSetup-2.2.1.exe.asc",
+            "size": "18 MB"
         },
         "mac": {
-            "href": "/files/releases/mac/feather-2.1.0-mac.zip",
-            "sig_href": "/files/releases/mac/feather-2.1.0-mac.zip.asc",
-            "size": "18 MB"
+            "href": "/files/releases/mac/feather-2.2.1.dmg",
+            "sig_href": "/files/releases/mac/feather-2.2.1.dmg.asc",
+            "size": "53 MB"
+        },
+        "source_archive": {
+            "href": "/files/releases/source/feather-2.2.1.tar.gz",
+            "sig_href": "/files/releases/source/feather-2.2.1.tar.gz",
+            "size": "21 MB"
         }
     }
 }
