@@ -14,8 +14,8 @@
             "size": "24 MB"
         },
         "linux_arm_appimage": {
-            "href": "/files/releases/linux-arm-appimage/feather-2.2.2.AppImage",
-            "sig_href": "/files/releases/linux-arm-appimage/feather-2.2.2.AppImage.asc",
+            "href": "/files/releases/linux-arm-appimage/feather-2.2.2-arm.AppImage",
+            "sig_href": "/files/releases/linux-arm-appimage/feather-2.2.2-arm.AppImage.asc",
             "size": "20 MB"
         },
         "windows": {
