@@ -3,6 +3,7 @@ languageCode = 'en-us'
 title = 'Feather Wallet'
 theme = 'feather'
 defaultContentLanguage = 'en'
+rssLimit = 20
 
 [menu]
   [[menu.main]]
@@ -40,3 +41,8 @@ defaultContentLanguage = 'en'
   [languages.en]
     title = 'Feather Wallet'
     weight = 1
+
+[outputFormats]
+  [outputFormats.RSS]
+    mediatype = "application/rss"
+    baseName = "feed"

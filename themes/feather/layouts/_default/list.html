@@ -1,7 +1,9 @@
 {{ define "main" }}
+<b>[<a href={{"feed.xml" | absURL}}>RSS</a>]</b>
+
 {{ range .Pages.ByPublishDate.Reverse }}
 <p>
-    <b>{{ .Title }}</b> ({{ .PublishDate.Format "2006-01-02" }})
+    <b id="{{.Title}}">{{ .Title }}</b> ({{ .PublishDate.Format "2006-01-02" }})
     <p>{{ .Content }}</p>
 </p>
 {{ end }}
