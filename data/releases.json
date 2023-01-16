@@ -24,8 +24,8 @@
             "size": "23 MB"
         },
         "windows_installer": {
-            "href": "/files/releases/win/FeatherWalletSetup-2.2.3.exe",
-            "sig_href": "/files/releases/win/FeatherWalletSetup-2.2.3.exe.asc",
+            "href": "/files/releases/win-installer/FeatherWalletSetup-2.2.3.exe",
+            "sig_href": "/files/releases/win-installer/FeatherWalletSetup-2.2.3.exe.asc",
             "size": "18 MB"
         },
         "mac": {
