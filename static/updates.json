@@ -1,0 +1,13 @@
+{
+	"platform": {
+		"win": {
+			"version": "2.3.0"
+		},
+		"linux-appimage": {
+			"version": "2.3.0"
+		},
+		"linux": {
+			"version": "2.3.0"
+		}
+	}
+}
