@@ -1,0 +1,5 @@
+{{ define "main" }}
+{{ range .Pages.ByPublishDate.Reverse }}
+{{ .Content }}
+{{ end }}
+{{ end }}
