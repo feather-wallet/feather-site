@@ -1,28 +1,28 @@
 {
 	"platform": {
 		"win": {
-			"version": "2.4.0"
+			"version": "2.4.1"
 		},
 		"win-installer": {
-			"version": "2.4.0"
+			"version": "2.4.1"
 		},
 		"linux-appimage": {
-			"version": "2.4.0"
+			"version": "2.4.1"
 		},
 		"linux": {
-			"version": "2.4.0"
+			"version": "2.4.1"
 		},
 		"linux-arm-appimage": {
-			"version": "2.4.0"
+			"version": "2.4.1"
 		},
 		"linux-arm": {
-			"version": "2.4.0"
+			"version": "2.4.1"
 		},
 		"linux-arm64-appimage": {
-			"version": "2.4.0"
+			"version": "2.4.1"
 		},
 		"linux-arm64": {
-			"version": "2.4.0"
+			"version": "2.4.1"
 		}
 	}
 }

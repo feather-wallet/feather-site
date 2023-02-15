@@ -1,41 +1,41 @@
 {
-    "version": "2.4.0",
-    "date": "2023-02-12",
-    "hashes": "/files/releases/hashes-2.4.0.txt",
+    "version": "2.4.1",
+    "date": "2023-02-15",
+    "hashes": "/files/releases/hashes-2.4.1.txt",
     "releases": {
         "linux": {
-            "href": "/files/releases/linux/feather-2.4.0-linux.zip",
-            "sig_href": "/files/releases/linux/feather-2.4.0-linux.zip.asc",
+            "href": "/files/releases/linux/feather-2.4.1-linux.zip",
+            "sig_href": "/files/releases/linux/feather-2.4.1-linux.zip.asc",
             "size": "26 MB"
         },
         "linux_appimage": {
-            "href": "/files/releases/linux-appimage/feather-2.4.0.AppImage",
-            "sig_href": "/files/releases/linux-appimage/feather-2.4.0.AppImage.asc",
+            "href": "/files/releases/linux-appimage/feather-2.4.1.AppImage",
+            "sig_href": "/files/releases/linux-appimage/feather-2.4.1.AppImage.asc",
             "size": "26 MB"
         },
         "linux_arm_appimage": {
-            "href": "/files/releases/linux-arm-appimage/feather-2.4.0-arm.AppImage",
-            "sig_href": "/files/releases/linux-arm-appimage/feather-2.4.0-arm.AppImage.asc",
+            "href": "/files/releases/linux-arm-appimage/feather-2.4.1-arm.AppImage",
+            "sig_href": "/files/releases/linux-arm-appimage/feather-2.4.1-arm.AppImage.asc",
             "size": "22 MB"
         },
         "windows": {
-            "href": "/files/releases/win/feather-2.4.0-win.zip",
-            "sig_href": "/files/releases/win/feather-2.4.0-win.zip.asc",
+            "href": "/files/releases/win/feather-2.4.1-win.zip",
+            "sig_href": "/files/releases/win/feather-2.4.1-win.zip.asc",
             "size": "23 MB"
         },
         "windows_installer": {
-            "href": "/files/releases/win-installer/FeatherWalletSetup-2.4.0.exe",
-            "sig_href": "/files/releases/win-installer/FeatherWalletSetup-2.4.0.exe.asc",
+            "href": "/files/releases/win-installer/FeatherWalletSetup-2.4.1.exe",
+            "sig_href": "/files/releases/win-installer/FeatherWalletSetup-2.4.1.exe.asc",
             "size": "18 MB"
         },
         "mac": {
-            "href": "/files/releases/mac/feather-2.4.0.dmg",
-            "sig_href": "/files/releases/mac/feather-2.4.0.dmg.asc",
+            "href": "/files/releases/mac/feather-2.4.1.dmg",
+            "sig_href": "/files/releases/mac/feather-2.4.1.dmg.asc",
             "size": "53 MB"
         },
         "source_archive": {
-            "href": "/files/releases/source/feather-2.4.0.tar.gz",
-            "sig_href": "/files/releases/source/feather-2.4.0.tar.gz",
+            "href": "/files/releases/source/feather-2.4.1.tar.gz",
+            "sig_href": "/files/releases/source/feather-2.4.1.tar.gz",
             "size": "21 MB"
         }
     }
