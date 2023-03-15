@@ -14,8 +14,8 @@
             "size": "27 MB"
         },
         "linux_appimage_anon": {
-            "href": "/files/releases/linux-appimage/feather-2.4.3-a.AppImage",
-            "sig_href": "/files/releases/linux-appimage/feather-2.4.3-a.AppImage.asc",
+            "href": "/files/releases/linux-appimage-a/feather-2.4.3-a.AppImage",
+            "sig_href": "/files/releases/linux-appimage-a/feather-2.4.3-a.AppImage.asc",
             "size": "23 MB"
         },
         "linux_arm_appimage": {
