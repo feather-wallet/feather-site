@@ -22,10 +22,10 @@
     <td>{{ $r.linux_appimage.size }}</td>
   </tr>
   <tr>
-    <td><img src="/img/Tails-icon.png" class="icon">Tails</td>
-    <td><a href="{{ $r.linux_appimage.href }}">AppImage</a></td>
-    <td><a style="text-decoration: line-through;" href="{{ $r.linux_appimage.sig_href }}">signature</a></td>
-    <td>{{ $r.linux_appimage.size }}</td>
+    <td><img src="/img/Tails-icon.png" class="icon">Tails / Whonix / Prestium</td>
+    <td><a href="{{ $r.linux_appimage_anon.href }}">AppImage</a></td>
+    <td><a style="text-decoration: line-through;" href="{{ $r.linux_appimage_anon.sig_href }}">signature</a></td>
+    <td>{{ $r.linux_appimage_anon.size }}</td>
   </tr>
   <tr>
     <td><img src="/img/raspberry_pi.png" class="icon">Raspberry Pi</td>
@@ -46,7 +46,7 @@
   </tr>
   <tr>
     <td><img src="/img/macOS-icon.png" class="icon">macOS <span style="font-size:80%">(10.14 and higher)</span></td>
-    <td><a href="{{ $r.mac.href }}">Application</a></td>
+    <td><a href="{{ $r.mac.href }}">Application Bundle</a></td>
     <td><a style="text-decoration: line-through;" href="{{ $r.mac.sig_href }}">signature</a></td>
     <td>{{ $r.mac.size }}</td>
   </tr>
