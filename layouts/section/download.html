@@ -11,30 +11,53 @@
   <table>
   <tbody>
   <tr>
-    <td rowspan="2"><img src="/img/Linux-icon.png" class="icon">Linux <span style="font-size:80%">(glibc 2.27 and higher)</span></td>
+    <td> </td>
+    <td><b>Architecture</b></td>
+    <td><b>Download</b></td>
+    <td><b>PGP Signature</b></td>
+    <td><b>Size</b></td>
+  </tr>
+  <tr>
+    <td rowspan="5"><img src="/img/Linux-icon.png" class="icon">Linux <span style="font-size:80%">(glibc >= 2.27)</span></td>
+    <td>x64</td>
     <td><a href="{{ $r.linux.href }}">Standalone executable</a></td>
     <td><a style="text-decoration: line-through;" href="{{ $r.linux.sig_href }}">signature</a></td>
     <td>{{ $r.linux.size }}</td>
   </tr>
   <tr>
+    <td> </td>
     <td><a href="{{ $r.linux_appimage.href }}">AppImage</a></td>
     <td><a style="text-decoration: line-through;" href="{{ $r.linux_appimage.sig_href }}">signature</a></td>
     <td>{{ $r.linux_appimage.size }}</td>
   </tr>
   <tr>
-    <td><img src="/img/Tails-icon.png" class="icon">Tails / Whonix / Prestium</td>
-    <td><a href="{{ $r.linux_appimage_anon.href }}">AppImage</a></td>
-    <td><a style="text-decoration: line-through;" href="{{ $r.linux_appimage_anon.sig_href }}">signature</a></td>
-    <td>{{ $r.linux_appimage_anon.size }}</td>
-  </tr>
-  <tr>
-    <td><img src="/img/raspberry_pi.png" class="icon">Raspberry Pi</td>
+    <td>ARM32 <span style="font-size:80%">(Raspberry Pi)</span></td>
     <td><a href="{{ $r.linux_arm_appimage.href }}">AppImage</a></td>
     <td><a style="text-decoration: line-through;" href="{{ $r.linux_arm_appimage.sig_href }}">signature</a></td>
     <td>{{ $r.linux_arm_appimage.size }}</td>
   </tr>
   <tr>
-    <td rowspan="2"><img src="/img/windows-10-icon.png" class="icon">Windows <span style="font-size:80%">(10 (21H2) and higher)</span></td>
+    <td>ARM64</td>
+    <td><a href="{{ $r.linux_arm64_appimage.href }}">AppImage</a></td>
+    <td><a style="text-decoration: line-through;" href="{{ $r.linux_arm64_appimage.sig_href }}">signature</a></td>
+    <td>{{ $r.linux_arm64_appimage.size }}</td>
+  </tr>
+  <tr>
+    <td>RISC-V <span style="font-size:80%">(64-bit)</span></td>
+    <td><a href="{{ $r.linux_riscv64_appimage.href }}">AppImage</a></td>
+    <td><a style="text-decoration: line-through;" href="{{ $r.linux_riscv64_appimage.sig_href }}">signature</a></td>
+    <td>{{ $r.linux_riscv64_appimage.size }}</td>
+  </tr>
+  <tr>
+    <td><img src="/img/Tails-icon.png" class="icon">Tails / Whonix / Prestium</td>
+    <td>x64</td>
+    <td><a href="{{ $r.linux_appimage_anon.href }}">AppImage</a></td>
+    <td><a style="text-decoration: line-through;" href="{{ $r.linux_appimage_anon.sig_href }}">signature</a></td>
+    <td>{{ $r.linux_appimage_anon.size }}</td>
+  </tr>
+  <tr>
+    <td rowspan="2"><img src="/img/windows-10-icon.png" class="icon">Windows <span style="font-size:80%">(10 and higher)</span></td>
+    <td rowspan="2">x64</td>
     <td><a href="{{ $r.windows_installer.href }}">Installer</a></td>
     <td><a style="text-decoration: line-through;" href="{{ $r.windows_installer.sig_href }}">signature</a></td>
     <td>{{ $r.windows_installer.size }}</td>
@@ -46,12 +69,14 @@
   </tr>
   <tr>
     <td><img src="/img/macOS-icon.png" class="icon">macOS <span style="font-size:80%">(10.14 and higher)</span></td>
+    <td>Intel</td>
     <td><a href="{{ $r.mac.href }}">Application Bundle</a></td>
     <td><a style="text-decoration: line-through;" href="{{ $r.mac.sig_href }}">signature</a></td>
     <td>{{ $r.mac.size }}</td>
   </tr>
   <tr>
     <td><img src="/img/source_archive.png" class="icon">Source archive</td>
+    <td> </td>
     <td><a href="{{ $r.source_archive.href }}">.tar.gz</a></td>
     <td><a style="text-decoration: line-through;" href="{{ $r.source_archive.sig_href }}">signature</a></td>
     <td>{{ $r.source_archive.size }}</td>
