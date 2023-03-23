@@ -6,6 +6,9 @@
         "win-installer": {
             "version": "2.4.4"
         },
+        "linux-appimage-a": {
+            "version": "2.4.4"
+        },
         "linux-appimage": {
             "version": "2.4.4"
         },
