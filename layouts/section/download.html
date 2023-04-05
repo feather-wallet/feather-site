@@ -68,11 +68,17 @@
     <td>{{ $r.windows.size }}</td>
   </tr>
   <tr>
-    <td><img src="/img/macOS-icon.png" class="icon">macOS <span style="font-size:80%">(10.14 and higher)</span></td>
+    <td rowspan="2"><img src="/img/macOS-icon.png" class="icon">macOS <span style="font-size:80%">(10.14 and higher)</span></td>
     <td>Intel</td>
     <td><a href="{{ $r.mac.href }}">Application Bundle</a></td>
     <td><a style="text-decoration: line-through;" href="{{ $r.mac.sig_href }}">signature</a></td>
     <td>{{ $r.mac.size }}</td>
+  </tr>
+  <tr>
+    <td>Apple Silicon</td>
+    <td><a href="{{ $r.mac_arm64.href }}">Application Bundle</a></td>
+    <td><a style="text-decoration: line-through;" href="{{ $r.mac_arm64.sig_href }}">signature</a></td>
+    <td>{{ $r.mac_arm64.size }}</td>
   </tr>
   <tr>
     <td><img src="/img/source_archive.png" class="icon">Source archive</td>
