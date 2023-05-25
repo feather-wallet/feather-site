@@ -59,8 +59,8 @@
         },
         "mac_arm64": {
             "triplet": "arm64-apple-darwin",
-            "href": "/files/releases/mac/feather-2.4.9-mac-arm64.zip",
-            "sig_href": "/files/releases/mac/feather-2.4.9-mac-arm64.zip.asc",
+            "href": "/files/releases/mac-arm64/feather-2.4.9-mac-arm64.zip",
+            "sig_href": "/files/releases/mac-arm64/feather-2.4.9-mac-arm64.zip.asc",
             "size": "19 MB"
         },
         "source_archive": {
