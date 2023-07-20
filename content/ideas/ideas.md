@@ -18,10 +18,6 @@ Export/import outputs, key images and transactions using animated QR Codes based
 
 Bundle a tray applet that allows setting up and managing a full node.
 
-**Support more platforms**
-
-Such as macOS ARM64 and RISC-V.
-
 **Better protection against memory attacks**
 
 See: https://github.com/feather-wallet/feather/issues/72#issuecomment-1405602142
@@ -34,7 +30,7 @@ See: https://github.com/seraphis-migration/wallet3
 
 Write a document that should help maintainers package Feather for their distribution.
 
-Debian package, Flatpak (maybe), Guix.
+Debian package, Flatpak, Guix.
 
 **Support monero:// URIs**
 
@@ -42,7 +38,7 @@ If multiple wallets are opened the user should be able to select a wallet.
 
 **Move third-party integrations to a plugin system**
 
-Allow third party integrations through a plugin system and host them on a plugin "store" available from within the app
+Allow third party integrations through a plugin system and host them on a plugin "store" available from within the app / Flatpak extensions.
 
 **Add more settings that accomodate users with esoteric threat models**
 
