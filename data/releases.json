@@ -1,73 +1,73 @@
 {
-    "version": "2.4.9",
-    "date": "2023-05-25",
-    "hashes": "/files/releases/hashes-2.4.9.txt",
+    "version": "2.5.2",
+    "date": "2023-10-19",
+    "hashes": "/files/releases/hashes-2.5.2.txt",
     "releases": {
         "linux": {
             "triplet": "x86_64-linux-gnu",
-            "href": "/files/releases/linux/feather-2.4.9-linux.zip",
-            "sig_href": "/files/releases/linux/feather-2.4.9-linux.zip.asc",
-            "size": "24 MB"
+            "href": "/files/releases/linux/feather-2.5.2-linux.zip",
+            "sig_href": "/files/releases/linux/feather-2.5.2-linux.zip.asc",
+            "size": "26 MB"
         },
         "linux_appimage": {
             "triplet": "x86_64-linux-gnu",
-            "href": "/files/releases/linux-appimage/feather-2.4.9.AppImage",
-            "sig_href": "/files/releases/linux-appimage/feather-2.4.9.AppImage.asc",
-            "size": "24 MB"
+            "href": "/files/releases/linux-appimage/feather-2.5.2.AppImage",
+            "sig_href": "/files/releases/linux-appimage/feather-2.5.2.AppImage.asc",
+            "size": "25 MB"
         },
         "linux_appimage_anon": {
             "triplet": "x86_64-linux-gnu.no-tor-bundle",
-            "href": "/files/releases/linux-appimage-a/feather-2.4.9-a.AppImage",
-            "sig_href": "/files/releases/linux-appimage-a/feather-2.4.9-a.AppImage.asc",
+            "href": "/files/releases/linux-appimage-a/feather-2.5.2-a.AppImage",
+            "sig_href": "/files/releases/linux-appimage-a/feather-2.5.2-a.AppImage.asc",
             "size": "21 MB"
         },
         "linux_arm_appimage": {
             "triplet": "arm-linux-gnueabihf",
-            "href": "/files/releases/linux-arm-appimage/feather-2.4.9-arm.AppImage",
-            "sig_href": "/files/releases/linux-arm-appimage/feather-2.4.9-arm.AppImage.asc",
-            "size": "20 MB"
+            "href": "/files/releases/linux-arm-appimage/feather-2.5.2-arm.AppImage",
+            "sig_href": "/files/releases/linux-arm-appimage/feather-2.5.2-arm.AppImage.asc",
+            "size": "21 MB"
         },
         "linux_arm64_appimage": {
             "triplet": "aarch64-linux-gnu",
-            "href": "/files/releases/linux-arm64-appimage/feather-2.4.9-arm64.AppImage",
-            "sig_href": "/files/releases/linux-arm64-appimage/feather-2.4.9-arm64.AppImage.asc",
-            "size": "22 MB"
+            "href": "/files/releases/linux-arm64-appimage/feather-2.5.2-arm64.AppImage",
+            "sig_href": "/files/releases/linux-arm64-appimage/feather-2.5.2-arm64.AppImage.asc",
+            "size": "23 MB"
         },
         "linux_riscv64_appimage": {
             "triplet": "riscv64-linux-gnu",
-            "href": "/files/releases/linux-riscv64-appimage/feather-2.4.9-riscv64.AppImage",
-            "sig_href": "/files/releases/linux-riscv64-appimage/feather-2.4.9-riscv64.AppImage.asc",
+            "href": "/files/releases/linux-riscv64-appimage/feather-2.5.2-riscv64.AppImage",
+            "sig_href": "/files/releases/linux-riscv64-appimage/feather-2.5.2-riscv64.AppImage.asc",
             "size": "22 MB"
         },
         "windows": {
             "triplet": "x86_64-w64-mingw32",
-            "href": "/files/releases/win/feather-2.4.9-win.zip",
-            "sig_href": "/files/releases/win/feather-2.4.9-win.zip.asc",
-            "size": "21 MB"
+            "href": "/files/releases/win/feather-2.5.2-win.zip",
+            "sig_href": "/files/releases/win/feather-2.5.2-win.zip.asc",
+            "size": "22 MB"
         },
         "windows_installer": {
             "triplet": "x86_64-w64-mingw32.installer",
-            "href": "/files/releases/win-installer/FeatherWalletSetup-2.4.9.exe",
-            "sig_href": "/files/releases/win-installer/FeatherWalletSetup-2.4.9.exe.asc",
+            "href": "/files/releases/win-installer/FeatherWalletSetup-2.5.2.exe",
+            "sig_href": "/files/releases/win-installer/FeatherWalletSetup-2.5.2.exe.asc",
             "size": "16 MB"
         },
         "mac": {
             "triplet": "x86_64-apple-darwin",
-            "href": "/files/releases/mac/feather-2.4.9-mac.zip",
-            "sig_href": "/files/releases/mac/feather-2.4.9-mac.zip.asc",
-            "size": "20 MB"
+            "href": "/files/releases/mac/feather-2.5.2-mac.zip",
+            "sig_href": "/files/releases/mac/feather-2.5.2-mac.zip.asc",
+            "size": "21 MB"
         },
         "mac_arm64": {
             "triplet": "arm64-apple-darwin",
-            "href": "/files/releases/mac-arm64/feather-2.4.9-mac-arm64.zip",
-            "sig_href": "/files/releases/mac-arm64/feather-2.4.9-mac-arm64.zip.asc",
+            "href": "/files/releases/mac-arm64/feather-2.5.2-mac-arm64.zip",
+            "sig_href": "/files/releases/mac-arm64/feather-2.5.2-mac-arm64.zip.asc",
             "size": "19 MB"
         },
         "source_archive": {
             "triplet": "dist-archive",
-            "href": "/files/releases/source/feather-2.4.9.tar.gz",
-            "sig_href": "/files/releases/source/feather-2.4.9.tar.gz.asc",
-            "size": "18 MB"
+            "href": "/files/releases/source/feather-2.5.2.tar.gz",
+            "sig_href": "/files/releases/source/feather-2.5.2.tar.gz.asc",
+            "size": "27 MB"
         }
     }
 }
