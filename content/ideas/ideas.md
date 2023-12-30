@@ -10,9 +10,27 @@ In no particular order.
 
 ---
 
-**Offline transaction signing using animated QR codes**
+**Practical Multisig UX**
 
-Export/import outputs, key images and transactions using animated QR Codes based on Blockchain Common's [Uniform Resources](https://github.com/BlockchainCommons/bc-ur).
+Replace PyBitmessage as the message transport layer for the MMS with a new self-hostable message service, rethinking multisig wallet setup and abstracting away the MMS in wallets as much as possible.
+
+**Bootstrappable builds for Monero core**
+
+Removing trusted binary components from Monero's build process.
+
+See: https://github.com/monero-project/monero/pull/8929
+
+**Integration testing**
+
+Set up an extensive integration test suite for Feather that covers privacy & security guarantees and performance.
+
+**Improve documentation**
+
+Write accessible threat modeling documentation; mapping specific concerns to actions users can take.
+
+**Monero Improvement Proposals**
+
+Set up a BIP equivalent for Monero wallet standards.
 
 **Full node manager applet**
 
@@ -30,15 +48,11 @@ See: https://github.com/seraphis-migration/wallet3
 
 Write a document that should help maintainers package Feather for their distribution.
 
-Debian package, Flatpak, Guix.
+Debian package, Guix.
 
 **Support monero:// URIs**
 
 If multiple wallets are opened the user should be able to select a wallet.
-
-**Move third-party integrations to a plugin system**
-
-Allow third party integrations through a plugin system and host them on a plugin "store" available from within the app / Flatpak extensions.
 
 **Add more settings that accomodate users with esoteric threat models**
 
@@ -54,14 +68,6 @@ This should give users more confidence that Feather is secure and functions prop
 
 Show inputs, rings, stealth addresses, other info.
 
-**Generate seeds using external entropy**
-
-Such as dice rolls.
-
 **Allow skipping synchronization**
 
 POV: You just opened your wallet on Tails after leaving it unopened for 3 months. You proceed to wait an hour or more for your wallet to synchronize knowing that there has been no activity. An advanced option to skip synchronization will eliminate the wait and allow you to send transactions almost immediately.
-
-**Switch the Tor client implementation to Arti**
-
-See: https://blog.torproject.org/announcing-arti/
