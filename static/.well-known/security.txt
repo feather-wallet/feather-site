@@ -1,0 +1,25 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA256
+
+Contact: mailto:dev@featherwallet.org
+Expires: 2030-01-01T00:00:00.000Z
+Encryption: https://raw.githubusercontent.com/feather-wallet/feather/master/utils/pubkeys/tobtoht.asc
+Preferred-Languages: en
+Canonical: https://featherwallet.org/.well-known/security.txt
+Policy: https://github.com/feather-wallet/feather/blob/master/SECURITY.md
+-----BEGIN PGP SIGNATURE-----
+
+iQIzBAEBCAAdFiEE6HvZIc3YhcnXijjF5FsQ3QJ9JHIFAmXkgw8ACgkQ5FsQ3QJ9
+JHI6dQ/9E24LQgnqYyijOme9dRAaZ8l3FWQnY2bBlKIHUVzEQgrD/YfF8xsUegma
+RLw7kKXekrllImW+EVitr9WAV7FID5DkMPCmO6qsMXFsNObucfx9yJNPLUev1J4c
+nskIgU3Je3MIldKCt8pZKJSo+aYfNVJk+s8jBoqbVxt49w2olj4X2Kin96WAQti6
+t99bG+t2KozFZFpj2THNu5DE5qKsBcm9T0l3TdTIQiG3XLaImgKk946NQSr7Gy4n
+A8Paz5gLHZz4wfd8pOBAuuxYoWgqQxu1W25zcWBpctPH97V9RD6XTaFWwNA2RS1K
+ksYVN33Ekq8BHkBb6b8/R8ZtlFVnVJf+Vw+Jzs2bo0J4qHLI2uccXRYpXXh0NuPc
+EbnG+WimRLRXvfVS1fSyh8dEeXeMqJFkJUbKoh8RvBKr1LBmSN3svO2wHhM4r7P/
+2sD2RfgvYGVyWpRr3c/PPeNFCQxjERoQ7fnjX/Ymo+iUZC0lBv5KTvispLCklpmE
+R/kzB1+xvv1TXIF4gW2Oddr6gUxmxzaQYKKvNvPaJWOcs5jPVEML3ZZ++Ijk5fha
+YQsQl1LIzhO59kYsHWUE+MnflIe9nP2pWsGElc43U0q5EBypGoeG8BfYNQAOSja5
+yje0eTDHqq/n3l4vtDCtYIT6ioHRbKNV0k++tCmQGafwOxMsO8Q=
+=6x6s
+-----END PGP SIGNATURE-----
