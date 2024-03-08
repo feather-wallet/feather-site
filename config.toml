@@ -32,8 +32,8 @@ rssLimit = 20
     url = "https://docs.featherwallet.org"
     weight = 5
   [[menu.main]]
-    name = "Support"
-    pre = "support"
+    name = "Help"
+    pre = "help"
     url = "https://docs.featherwallet.org/guides/report-an-issue"
     weight = 6
 
