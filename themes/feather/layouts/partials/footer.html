@@ -1,0 +1,10 @@
+<p align=center>
+{{ $currentPage := . }}
+{{ $len := len .Site.Menus.link }}
+{{ range $i, $e := .Site.Menus.link }}
+    {{ $menu_item_url := .URL | relLangURL }}
+    {{ $page_url:= $currentPage.RelPermalink | relLangURL }}
+  <a class="footer-links" href="{{ $menu_item_url}}{{$page_url }}">{{ .Params.icon | safeHTML }}{{ $text := print .Name | safeHTML }}{{ $text }}</a>
+{{ if ne (add $i 1) $len }} | {{ end }}
+{{ end }}
+</p>
