@@ -44,7 +44,7 @@ rssLimit = 20
   [[menu.link]]
     name = "Onion"
     pre = "onion"
-    params.icon = "<img src='/img/onion-tor.svg'>"
+    params.icon = "<img src='/img/onion-tor.avif'>"
     url = "http://featherdvtpi7ckdbkb2yxjfwx3oyvr3xjz3oo4rszylfzjdg6pbm3id.onion"
     weight = 2
   [[menu.link]]
