@@ -9,7 +9,14 @@
   </p>
 
   <table>
-  <tbody>
+  <colgroup>
+    <col class="platforms" />
+    <col class="architectures" />
+    <col class="downloads" />
+    <col class="pgp-signatures" />
+    <col class="sizes" />
+  </colgroup>
+  <tbody class="title">
   <tr>
     <td> </td>
     <td><b>Architecture</b></td>
@@ -17,6 +24,8 @@
     <td><b>PGP Signature</b></td>
     <td><b>Size</b></td>
   </tr>
+  </tbody>
+  <tbody class="linux">
   <tr>
     <td rowspan="5"><img src="/img/Linux-icon.png" class="icon">Linux <span style="font-size:80%">(glibc >= 2.27)</span></td>
     <td>x64</td>
@@ -48,6 +57,8 @@
     <td><a style="text-decoration: line-through;" href="{{ $r.linux_riscv64_appimage.sig_href }}">signature</a></td>
     <td>{{ $r.linux_riscv64_appimage.size }}</td>
   </tr>
+  </tbody>
+  <tbody class="tails">
   <tr>
     <td><img src="/img/Tails-icon.png" class="icon">Tails / Whonix</td>
     <td>x64</td>
@@ -55,6 +66,8 @@
     <td><a style="text-decoration: line-through;" href="{{ $r.linux_appimage_anon.sig_href }}">signature</a></td>
     <td>{{ $r.linux_appimage_anon.size }}</td>
   </tr>
+  </tbody>
+  <tbody class="flatpak">
   <tr>
     <td><img src="/img/flatpak-icon.png" class="icon">Flatpak</td>
     <td>x64</td>
@@ -62,6 +75,8 @@
     <td></td>
     <td>{{ $r.linux_flatpak.size }}</td>
   </tr>
+  </tbody>
+  <tbody class="windows">
   <tr>
     <td rowspan="2"><img src="/img/windows-10-icon.png" class="icon">Windows <span style="font-size:80%">(10 and higher)</span></td>
     <td rowspan="2">x64</td>
@@ -74,6 +89,8 @@
     <td><a style="text-decoration: line-through;" href="{{ $r.windows.sig_href }}">signature</a></td>
     <td>{{ $r.windows.size }}</td>
   </tr>
+  </tbody>
+  <tbody class="macos">
   <tr>
     <td rowspan="2"><img src="/img/macOS-icon.png" class="icon">macOS <span style="font-size:80%">(10.14 and higher)</span></td>
     <td>Intel</td>
@@ -87,6 +104,8 @@
     <td><a style="text-decoration: line-through;" href="{{ $r.mac_arm64.sig_href }}">signature</a></td>
     <td>{{ $r.mac_arm64.size }}</td>
   </tr>
+  </tbody>
+  <tbody class="source">
   <tr>
     <td><img src="/img/source_archive.png" class="icon">Source archive</td>
     <td> </td>
