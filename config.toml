@@ -36,6 +36,24 @@ rssLimit = 20
     pre = "help"
     url = "https://docs.featherwallet.org/guides/report-an-issue"
     weight = 6
+  [[menu.link]]
+    name = "Clearnet"
+    pre = "clearnet"
+    url = "https://featherwallet.org"
+    weight = 1
+  [[menu.link]]
+    name = "Onion"
+    pre = "onion"
+    params.icon = "<img src='/img/onion-tor.svg'>"
+    url = "http://featherdvtpi7ckdbkb2yxjfwx3oyvr3xjz3oo4rszylfzjdg6pbm3id.onion"
+    weight = 2
+  [[menu.link]]
+    name = "I2P"
+    pre = "i2p"
+    params.icon = "<img src='/img/itoopie.png'>"
+    url = "http://rwzulgcql2y3n6os2jhmhg6un2m33rylazfnzhf56likav47aylq.b32.i2p"
+    weight = 3
+
 
 [languages]
   [languages.en]

@@ -156,3 +156,9 @@ a {
     display: contents;
 	text-decoration: none
 }
+
+a.footer-links img {
+  width: 1rem;
+  vertical-align: middle;
+  padding-right: 0.2rem;
+}
