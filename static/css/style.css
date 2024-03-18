@@ -1,12 +1,16 @@
+:root {
+  --text-color: black;
+  --border-color: black;
+  --page-border-color: grey;
+  --table-color: #f0f0f0;
+}
+
 html {
     overflow-y: scroll;
 }
 
 body {
-	background: #f8f8f8; 
-	color: black; 
-	max-width: 120ch;
-	margin: 1em auto;
+  margin: 0;
 }
 
 h1, h2, h3 {font-weight: bold;}
@@ -19,10 +23,10 @@ h3 {font-size: 100%;}
 
 table { 
   border-collapse: collapse;
-  outline: 1px solid black;
-  background-color: #f0f0f0;
+  outline: 1px solid var(--border-color);
+  background-color: var(--table-color);
   tbody {
-    border: 1px solid grey
+    border: 1px solid var(--page-border-color)
   }
 }
 
@@ -41,8 +45,9 @@ code {
 }
 
 .page {
-	background: #FFFFFF;
-	border: 1px solid #777;
+	border: 1px solid var(--page-border-color);
+  max-width: 120ch;
+  margin: auto;
 }
 
 .content {
@@ -85,4 +90,65 @@ a.footer-links img {
   width: 1rem;
   vertical-align: middle;
   padding-right: 0.2rem;
+}
+
+/* Dark mode */
+.wrapper {
+  background: var(--background-color);
+  color: var(--text-color);
+  min-height: 100vh;
+  padding-top: 1em;
+  padding-bottom: 1em;
+}
+
+#toggleMode{
+  display: none;
+}
+
+.toggleDark,
+.toggleLight{
+  cursor: pointer;
+  position: absolute;
+  z-index: 2;
+  top: 20px;
+  left: 20px;
+  img {
+    width: 3em;
+  }
+}
+
+.toggleDark{
+  display: block;
+  color: #222;
+}
+
+.toggleDark:hover{
+  color: blue;
+}
+
+.toggleLight{
+  display: none;
+  color: white;
+}
+
+#toggleMode:checked ~ .toggleDark{
+  display: none;
+}
+
+#toggleMode:checked ~ .toggleLight{
+  display: block;
+}
+
+#toggleMode:checked ~ .wrapper {
+  --page-border-color: rgb(80, 115, 134);
+  --background-color: rgb(16, 20, 23);
+  --text-color: rgb(167, 158, 139);
+  --title-color: rgb(247, 142, 102);
+  --table-color: var(--background-color);
+  a {
+    color: rgb(128, 182, 204)
+  }
+  h1, h2, h3, h4, h5 {
+    color: rgb(247, 142, 102);
+  }
 }
