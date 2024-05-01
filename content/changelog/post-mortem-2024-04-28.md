@@ -149,7 +149,7 @@ This minimizes the chance of introducing new bugs. Typical releases are tested b
 
 In case any build system changes or packages updates were pending to go into the next release, it also minimizes the chance of introducing nondeterminism into the build process.
 
-Regrettably, I made the descision to base the `2.6.6` emergency release on `master`, instead of `2.6.5`. The `2.6.6` release contained 20 commits since `2.6.5`, which other than the critical fix were all pending changes for the next release and included build system changes, low to medium priority fixes, and a new feature that I had recently tested.
+Regrettably, I made the decision to base the `2.6.6` emergency release on `master`, instead of `2.6.5`. The `2.6.6` release contained 20 commits since `2.6.5`, which other than the critical fix were all pending changes for the next release and included build system changes, low to medium priority fixes, and a new feature that I had recently tested.
 
 The [critical fix](https://github.com/feather-wallet/monero/commit/376fb747ea262cf6cd773cc169bbd3e84670d733) removed three lines of code (including an empty line and a comment). Had only this fix been included, it would also have been easier for others to compare the source code of `2.6.5` and `2.6.6` and be confident that the emergency release wasn't used as an opportunity to introduce malicious code into the source code.
 
