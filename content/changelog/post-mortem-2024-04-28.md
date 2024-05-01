@@ -14,7 +14,7 @@ Users trying to construct a transaction on `2.6.5` and below are presented with 
 
 The bug was triggered when the number of RingCT outputs on the blockchain exceeded 100 million. This caused a sanity check to fail during transaction construction, resulting in the error shown above.
 
-For approximately 5 hours on August 28, 2024, all available versions were affected by the bug, effectively preventing anyone from transferring funds using Feather during that time.
+For approximately 5 hours on April 28, 2024, all available versions were affected by the bug, effectively preventing anyone from transferring funds using Feather during that time.
 
 ### Cause
 
