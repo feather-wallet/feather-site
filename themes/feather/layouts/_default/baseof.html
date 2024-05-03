@@ -2,6 +2,13 @@
 <html>
     {{- partial "head.html" . -}}
     <body>
+    <input type="checkbox" id="toggleMode">
+    <label for="toggleMode" class="toggleDark">
+    <img src="/img/Moon.avif" alt="">
+    </label>
+    <label for="toggleMode" class="toggleLight">
+    <img src="/img/Sun.avif" alt=""></label>
+    <div class="wrapper">
         <div class="page">
         {{- partial "header.html" . -}}
         <div class="content">
@@ -9,5 +16,6 @@
         </div>
         {{- partial "footer.html" . -}}
         </div>
+    </div>
     </body>
 </html>
