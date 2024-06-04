@@ -47,8 +47,8 @@
         },
         "windows_installer": {
             "triplet": "x86_64-w64-mingw32.installer",
-            "href": "/files/releases/win-installer/FeatherWalletSetup-2.6.7.exe",
-            "sig_href": "/files/releases/win-installer/FeatherWalletSetup-2.6.7.exe.asc",
+            "href": "https://github.com/feather-wallet/feather/releases/download/2.6.7/FeatherWalletSetup-2.6.7.exe",
+            "sig_href": "https://github.com/feather-wallet/feather/releases/download/2.6.7/FeatherWalletSetup-2.6.7.exe.asc",
             "size": "17 MB"
         },
         "mac": {
