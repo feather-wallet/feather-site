@@ -18,7 +18,7 @@ Replace PyBitmessage as the message transport layer for the MMS with a new self-
 
 Removing trusted binary components from Monero's build process.
 
-See: https://github.com/monero-project/monero/pull/8929
+See: [#8929](https://github.com/monero-project/monero/pull/8929) and [#9440](https://github.com/monero-project/monero/pull/9440).
 
 **Integration testing**
 
@@ -39,20 +39,6 @@ Bundle a tray applet that allows setting up and managing a full node.
 **Better protection against memory attacks**
 
 See: https://github.com/feather-wallet/feather/issues/72#issuecomment-1405602142
-
-**Get ready for the migration to Seraphis**
-
-See: https://github.com/seraphis-migration/wallet3
-
-**Improve packaging for Linux distributions**
-
-Write a document that should help maintainers package Feather for their distribution.
-
-Debian package, Guix.
-
-**Support monero:// URIs**
-
-If multiple wallets are opened the user should be able to select a wallet.
 
 **Add more settings that accomodate users with esoteric threat models**
 
