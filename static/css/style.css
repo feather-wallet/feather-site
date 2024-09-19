@@ -3,39 +3,56 @@ html {
 }
 
 body {
-	background: #f8f8f8; 
-	color: black; 
-	margin: 0em auto;
+    background: #f8f8f8;
+    color: black;
+    margin: 0em auto;
 }
 
 .notification {
-  background-color: rgb(255, 255, 0, 1);
-  margin: 0;
-  text-align: center;
+    background-color: rgba(255, 255, 0, 1);
+    text-align: center;
+    font-size: 1rem;
+    width: 100%;
+    box-sizing: border-box;
+    position: relative;
 }
 
-h1, h2, h3 {font-weight: bold;}
-h1 {font-size: 134%;}
+.notification > p {
+    padding: 0;
+    margin: 0;
+}
+
+h1, h2, h3 {
+    font-weight: bold;
+}
+
+h1 {
+    font-size: 134%;
+}
+
 h2 {
-	font-size: 117%;
-	text-decoration: underline;
-}
-h3 {font-size: 100%;}
-
-table { 
-  border-collapse: collapse;
-  outline: 1px solid black;
-  background-color: #f0f0f0;
-  tbody {
-    border: 1px solid grey
-  }
+    font-size: 117%;
+    text-decoration: underline;
 }
 
-td { 
-  padding-top: 0.3em;
-  padding-bottom: 0.4em;
-  padding-right: 2em;
-  padding-left:0.3em;
+h3 {
+    font-size: 100%;
+}
+
+table {
+    border-collapse: collapse;
+    outline: 1px solid black;
+    background-color: #f0f0f0;
+    tbody {
+        border: 1px solid grey
+    }
+}
+
+td {
+    padding-top: 0.3em;
+    padding-bottom: 0.4em;
+    padding-right: 2em;
+    padding-left: 0.3em;
 }
 
 code {
@@ -46,55 +63,55 @@ code {
 }
 
 .page {
-	background: #FFFFFF;
-	border: 1px solid #777;
-	margin: 1em auto;
-  max-width: 120ch;
+    background: #FFFFFF;
+    border: 1px solid #777;
+    margin: 1em auto;
+    max-width: 120ch;
 }
 
 .content {
-	padding: 1.5em;
-	padding-top: 0.5em;
-	padding-bottom: 0.5em;
+    padding: 1.5em;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
 }
 
 .front {
-	display: block;
-	margin-right: auto;
+    display: block;
+    margin-right: auto;
     box-shadow: 4px 4px 6px #00000020;
 }
 
 .featureimg > a > img {
-	display: block;
-	margin-right: auto;
-	border: 1px solid black;
-	max-width: 50%;
-	box-shadow: 4px 4px 6px #00000020;
+    display: block;
+    margin-right: auto;
+    border: 1px solid black;
+    max-width: 50%;
+    box-shadow: 4px 4px 6px #00000020;
 }
 
 .icon {
-	width: 32px;
-	padding-right: 8px;
-	padding-left: 5px;
-  vertical-align: middle;
+    width: 32px;
+    padding-right: 8px;
+    padding-left: 5px;
+    vertical-align: middle;
 }
 
 td {
-	vertical-align: sub;
+    vertical-align: sub;
 }
 
 a {
     display: contents;
-	text-decoration: none
+    text-decoration: none
 }
 
 a.footer-links img {
-  width: 1rem;
-  vertical-align: middle;
-  padding-right: 0.2rem;
+    width: 1rem;
+    vertical-align: middle;
+    padding-right: 0.2rem;
 }
 
 .inline-icon {
-  height: 1em;
-  vertical-align: middle;
+    height: 1em;
+    vertical-align: middle;
 }
