@@ -1,0 +1,52 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA256
+
+# This file contains a list of domains controlled by the Feather project.
+#
+# You can check the signature against our release signing key. It is available
+# in the source code repository at utils/pubkeys/featherwallet.asc and
+# https://docs.featherwallet.org/guides/release-signing-key
+#
+# If we lose control over a domain, this file will be updated. Make sure you
+# verify the contents of the latest version of this file in the master branch
+# of this repository. When in doubt, contact the maintainers.
+# https://docs.featherwallet.org/guides/report-an-issue
+#
+# Verifying this file is not a substitute for verifying the binaries downloaded
+# from any of these sites.
+#
+# Any site that claims to be associated with this project but isn't listed below
+# is likely a phishing site.
+
+# Clearnet
+featherwallet.org
+featherwallet.net
+feather-wallet.com
+feather-wallet.net
+
+# Tor
+featherdvtpi7ckdbkb2yxjfwx3oyvr3xjz3oo4rszylfzjdg6pbm3id.onion
+
+# i2p
+rwzulgcql2y3n6os2jhmhg6un2m33rylazfnzhf56likav47aylq.b32.i2p
+
+=== monero info ===
+[ height ] 3243000
+[  time  ] Sun Sep 22 10:17:57 AM UTC 2024
+[  hash  ] c31d8c5092f8aaf35339a443ebe7c39efb8e411731411f0405dca8af54343f6f
+-----BEGIN PGP SIGNATURE-----
+
+iQIzBAEBCAAdFiEEgYXhWKMzMMf9YbwNH3bhVc77pxwFAmbv+V0ACgkQH3bhVc77
+pxw1UQ//c62k33xPlJgBWTK/UAzol5e3bW4NoOWmb+sfHuOeNr9cVlRxO7mdJPZe
+7SCJeFbsKtiHXZy18qPY70cMQp6u7jDK6mJUhoUYcyRiu39N6LNLu/2CKjmz7OKz
+nSdnWq+NmhLfPlG7LN2EfgNLq4pOeAEVGgBZ8FAzDWZYgKhVeGZSnKdiJsTXnXAj
+Ew0BSiUncLhxUA/9fkm82gYe86U4Oi2ciyCCqq503PLQacYTt7nydM+Cmia867bS
+d/e0bL/IlIMBH7ncgVQBgN00AnuIRq7XCkaNtKg3I8EfNkOWkj8sbMH2Beyesiij
+xVPkEGUbtL4OYCDApZ9c0IQROGbGs/4A3slikqvYjZ0RI6MaCAoIhWYvbNKz5EGg
+/4LigmkMSK3c1iuWKXhXn9W5+OKNmXdzWae7MyKC/EPSyiilz06YVM1az5PjbBwy
+9OgrTRUaD9iPXT3wIsdK8Xtf74H7NqXWHPN8ncmdjChdKd8gV0b8k1jmNM9vYgmS
+v0PhQEr6SmD7renGmjJzeTGbyfUfwdpnL935ON5+NXSHT4qUi8r/uSms8TY51Auk
+jseYLsqy3LPSBepvftCG1E+QKgPkdMYyFlu4WycC8ZQQrmrDAqGfq2EGK3aoOZ6c
+spvFmCu6TD9ETqp5/23iTql+eTc3trBZjtJ5v+XAe9EaM4UJ2R0=
+=zhTF
+-----END PGP SIGNATURE-----
