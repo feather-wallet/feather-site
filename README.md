@@ -1,6 +1,8 @@
 # Feather Wallet site
 
-The site is built on top of [Hugo](https://gohugo.io).
+A signed list of official mirrors can be found in [mirrors.txt](https://github.com/feather-wallet/feather-site/blob/master/mirrors.txt).
+
+This site is built with [Hugo](https://gohugo.io).
 
 ## Adding content
 
