@@ -1,43 +1,43 @@
 {
     "platform": {
         "win": {
-            "version": "2.6.8"
+            "version": "2.7.0"
         },
         "win-installer": {
-            "version": "2.6.8"
+            "version": "2.7.0"
         },
         "linux-appimage-a": {
-            "version": "2.6.8"
+            "version": "2.7.0"
         },
         "linux-appimage": {
-            "version": "2.6.8"
+            "version": "2.7.0"
         },
         "linux": {
-            "version": "2.6.8"
+            "version": "2.7.0"
         },
         "linux-arm-appimage": {
-            "version": "2.6.8"
+            "version": "2.7.0"
         },
         "linux-arm": {
-            "version": "2.6.8"
+            "version": "2.7.0"
         },
         "linux-arm64-appimage": {
-            "version": "2.6.8"
+            "version": "2.7.0"
         },
         "linux-arm64": {
-            "version": "2.6.8"
+            "version": "2.7.0"
         },
         "linux-riscv64-appimage": {
-            "version": "2.6.8"
+            "version": "2.7.0"
         },
         "linux-riscv64": {
-            "version": "2.6.8"
+            "version": "2.7.0"
         },
         "mac": {
-            "version": "2.6.8"
+            "version": "2.7.0"
         },
         "mac-arm64": {
-            "version": "2.6.8"
+            "version": "2.7.0"
         }
     }
 }
