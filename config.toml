@@ -5,6 +5,11 @@ theme = 'feather'
 defaultContentLanguage = 'en'
 rssLimit = 20
 
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+
 [menu]
   [[menu.main]]
     name = "Home"
