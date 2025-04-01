@@ -10,7 +10,17 @@ In no particular order.
 
 ---
 
+**FCMP++ Beta**
+
+With FCMP++ testnet rapidly approaching, I'm aiming towards getting a FCMP++-ready beta release out, to give users the opportunity to play around on the testnet and report issues.
+
+**Translations**
+
+Write a glossary / style guide. Ready the codebase for translations. Hire a professional translator or set up a weblate for community translations.
+
 **Practical Multisig UX**
+
+Evaluate kayabaNerve's FROST-inspired multisig implementation as a more robust replacement for the wallet2 implementation.
 
 Replace PyBitmessage as the message transport layer for the MMS with a new self-hostable message service, rethinking multisig wallet setup and abstracting away the MMS in wallets as much as possible.
 
@@ -26,10 +36,6 @@ Write accessible threat modeling documentation; mapping specific concerns to act
 
 Set up a BIP equivalent for Monero wallet standards.
 
-**Full node manager applet**
-
-Bundle a tray applet that allows setting up and managing a full node.
-
 **Better protection against memory attacks**
 
 See: https://github.com/feather-wallet/feather/issues/72#issuecomment-1405602142
@@ -38,10 +44,3 @@ See: https://github.com/feather-wallet/feather/issues/72#issuecomment-1405602142
 
 Such as: lock wallet on session lock, prevent taking screenshots from app, "ephemeral mode".
 
-**Add an advanced transaction details view**
-
-Show inputs, rings, stealth addresses, other info.
-
-**Allow skipping synchronization**
-
-POV: You just opened your wallet on Tails after leaving it unopened for 3 months. You proceed to wait an hour or more for your wallet to synchronize knowing that there has been no activity. An advanced option to skip synchronization will eliminate the wait and allow you to send transactions almost immediately.
