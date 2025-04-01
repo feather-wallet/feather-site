@@ -53,7 +53,7 @@ draft: false
 <br>
 {{< figure src="/img/receive_paymentrequest_light.png" link="/img/receive_paymentrequest_light.png" class="featureimg" >}}
 
-- Qr code display
+- QR code display
 - Edit subaddress labels
 - Create payment requests
 - Automatically hides used addresses
