@@ -10,7 +10,7 @@ draft: false
 {{< figure src="/img/home_monero_light.png" link="/img/home_monero_light.png" class="featureimg" >}}
 
 - Fiat price display
-- CCS proposals & /r/Monero posts
+- Crowdfunding proposals, Bounties, Revuo Monero
 
 ### History
 
@@ -32,7 +32,7 @@ draft: false
 - Switch between remote nodes
 - Maintain your own list of nodes
 
-### Send & Contacts
+### Send
 
 {{< figure src="/img/send_light.png" link="/img/send_light.png" class="featureimg" >}}
 <br>
@@ -46,7 +46,6 @@ draft: false
 - Multi destination transactions
 - Advanced transaction details
 - Export unsigned / signed transaction
-- Export addressbook as CSV
 
 ### Receive
 
@@ -74,13 +73,9 @@ draft: false
 
 - Fiat/crypto price conversion calculator
 
-### Mining
+### Contacts
 
-{{< figure src="/img/feather_xmrig_mining.png" link="/img/feather_xmrig_mining.png" class="featureimg" >}}
-<br>
-{{< figure src="/img/mining_light.png" link="/img/mining_light.png" class="featureimg" >}}
-
-- Start mining Monero in minutes with XMRig integration
+{{< figure src="/img/feather_contacts.png" link="/img/feather_contacts.png" class="featureimg" >}}
 
 ### Tools > Sign/verify
 

@@ -84,9 +84,7 @@ code {
 .featureimg > a > img {
     display: block;
     margin-right: auto;
-    border: 1px solid black;
     max-width: 50%;
-    box-shadow: 4px 4px 6px #00000020;
 }
 
 .icon {
