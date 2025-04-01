@@ -56,7 +56,7 @@ rssLimit = 20
     name = "I2P"
     pre = "i2p"
     params.icon = "<img src='/img/itoopie.png'>"
-    url = "http://rwzulgcql2y3n6os2jhmhg6un2m33rylazfnzhf56likav47aylq.b32.i2p"
+    url = "http://featherwallet.i2p/?i2paddresshelper=6mERqxqRWl34VSb0s8pRH7oACl-CEJX7njZQpNT4v9DqYRGrGpFaXfhVJvSzylEfugAKX4IQlfueNlCk1Pi~0OphEasakVpd-FUm9LPKUR-6AApfghCV-542UKTU-L~Q6mERqxqRWl34VSb0s8pRH7oACl-CEJX7njZQpNT4v9DqYRGrGpFaXfhVJvSzylEfugAKX4IQlfueNlCk1Pi~0OphEasakVpd-FUm9LPKUR-6AApfghCV-542UKTU-L~Q6mERqxqRWl34VSb0s8pRH7oACl-CEJX7njZQpNT4v9DqYRGrGpFaXfhVJvSzylEfugAKX4IQlfueNlCk1Pi~0OphEasakVpd-FUm9LPKUR-6AApfghCV-542UKTU-L~Q6mERqxqRWl34VSb0s8pRH7oACl-CEJX7njZQpNT4v9DqYRGrGpFaXfhVJvSzylEfugAKX4IQlfueNlCk1Pi~0EjVQ95SQI~X-Dww2pdxgbSYWstFAdT0ReHljNSSBsY0BQAEAAcAAA=="
     weight = 3
 
 
