@@ -1,5 +1,5 @@
 {{ define "main" }}
-  {{ $d := $.Site.Data.releases }}
+  {{ $d := hugo.Data.releases }}
   {{ $r := $d.releases }}
   <h1>Latest release: <code>{{ $d.version }}</code>
     <span style="font-size:16px;">({{ $d.date }})</span></h1>
