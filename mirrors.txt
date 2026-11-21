@@ -1,5 +1,5 @@
 -----BEGIN PGP SIGNED MESSAGE-----
-Hash: SHA256
+Hash: SHA512
 
 # This file contains a list of domains controlled by the Feather project.
 #
@@ -24,29 +24,23 @@ featherwallet.net
 feather-wallet.com
 feather-wallet.net
 
-# Tor
-featherdvtpi7ckdbkb2yxjfwx3oyvr3xjz3oo4rszylfzjdg6pbm3id.onion
-
-# i2p
-rwzulgcql2y3n6os2jhmhg6un2m33rylazfnzhf56likav47aylq.b32.i2p
-
 === monero info ===
-[ height ] 3243000
-[  time  ] Sun Sep 22 10:17:57 AM UTC 2024
-[  hash  ] c31d8c5092f8aaf35339a443ebe7c39efb8e411731411f0405dca8af54343f6f
+[ height ] 3811452
+[  time  ] Sat Nov 21 07:39:00 PM UTC 2026
+[  hash  ] e2e3fab848e8b0fcad43f10eeb0f383401de6e8d908d04ebe02add3d133badda
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAEBCAAdFiEEgYXhWKMzMMf9YbwNH3bhVc77pxwFAmbv+V0ACgkQH3bhVc77
-pxw1UQ//c62k33xPlJgBWTK/UAzol5e3bW4NoOWmb+sfHuOeNr9cVlRxO7mdJPZe
-7SCJeFbsKtiHXZy18qPY70cMQp6u7jDK6mJUhoUYcyRiu39N6LNLu/2CKjmz7OKz
-nSdnWq+NmhLfPlG7LN2EfgNLq4pOeAEVGgBZ8FAzDWZYgKhVeGZSnKdiJsTXnXAj
-Ew0BSiUncLhxUA/9fkm82gYe86U4Oi2ciyCCqq503PLQacYTt7nydM+Cmia867bS
-d/e0bL/IlIMBH7ncgVQBgN00AnuIRq7XCkaNtKg3I8EfNkOWkj8sbMH2Beyesiij
-xVPkEGUbtL4OYCDApZ9c0IQROGbGs/4A3slikqvYjZ0RI6MaCAoIhWYvbNKz5EGg
-/4LigmkMSK3c1iuWKXhXn9W5+OKNmXdzWae7MyKC/EPSyiilz06YVM1az5PjbBwy
-9OgrTRUaD9iPXT3wIsdK8Xtf74H7NqXWHPN8ncmdjChdKd8gV0b8k1jmNM9vYgmS
-v0PhQEr6SmD7renGmjJzeTGbyfUfwdpnL935ON5+NXSHT4qUi8r/uSms8TY51Auk
-jseYLsqy3LPSBepvftCG1E+QKgPkdMYyFlu4WycC8ZQQrmrDAqGfq2EGK3aoOZ6c
-spvFmCu6TD9ETqp5/23iTql+eTc3trBZjtJ5v+XAe9EaM4UJ2R0=
-=zhTF
+iQIzBAEBCgAdFiEEgYXhWKMzMMf9YbwNH3bhVc77pxwFAmsB89UACgkQH3bhVc77
+pxx7phAAlrqVNZJRKMylPMEKEjD71Q4r2AKlkxr+yX2Eb1541Uw4KNIAbAo2U/YN
+mgbnxnoJPc9Jg4IuwvcVh4Fm8YJykaEecfbMNkxBdHlXVn4A70WppQxk5uS01dpS
++Qo9ZWgP3Wk9hF7ong3K27Wyu1GMpWG/soIwO1ZsrQ7NBPwUkQigJkbokR1y2f/Q
+sa/BUD8o5pq55tu5DXivjbkLe2/aBJhI+8SgifNylg374aEBw2iEIpCN91FguvAP
+KUIt4ieoraUlYXNsgSMnmw3IJcvdi/abw6r/27W+J8yD1YJJfixltO02LU+Y6RWZ
+3Fs/huRB5Q+OmbEJWus4Hk8c5Ka6URNiFp+gZCCs8Nn5ukTv5arFc84yDtMihfs/
+rxOIKEl1JDXWTLcSIyAnFxQOEOr6BN6Ao+w1sisuBKBsR+wjz4asPhl1PlIGDBXZ
+qkqbnPhi9oTMb9tBcyJc6BAR8QqThPjXSuxK9TBuV6AoBOSDc7XDKQn9ZaWvpKQG
+TJ9PURL9NK6fZ1H9q+A0pNlW2N6tV11Zx1qUV+yyVnKBBUcTKh4RvxCjwMoO+qy2
+R0zQqEVDzMwZFmQ0xNv42PcpmHNUWwp2rEZMz9zgv3MiklXbpTyKCnWk+SwzuG/a
+420bQNIjVnEO15ktVdR4UjBT9SdjM6DfrE8h17zV5G6KC3vLAbg=
+=w7l5
 -----END PGP SIGNATURE-----
